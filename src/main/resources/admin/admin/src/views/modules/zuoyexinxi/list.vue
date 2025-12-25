@@ -547,8 +547,8 @@ export default {
   }
 
   .pages {
-    & /deep/ el-pagination__sizes{
-      & /deep/ el-input__inner {
+    & :deep el-pagination__sizes{
+      & :deep el-input__inner {
         height: 22px;
         line-height: 22px;
       }
@@ -561,7 +561,7 @@ export default {
   } 
 
   .tables {
-	& /deep/ .el-button--success {
+	& :deep .el-button--success {
 		height: 40px;
 		color: rgba(87, 199, 212, 1);
 		font-size: 14px;
@@ -572,7 +572,7 @@ export default {
 		background-color: #fff;
 	}
 	
-	& /deep/ .el-button--primary {
+	& :deep .el-button--primary {
 		height: 40px;
 		color: rgba(249, 97, 151, 1);
 		font-size: 14px;
@@ -583,7 +583,7 @@ export default {
 		background-color: #fff;
 	}
 	
-	& /deep/ .el-button--danger {
+	& :deep .el-button--danger {
 		height: 40px;
 		color: rgba(249, 104, 104, 1);
 		font-size: 14px;
@@ -594,7 +594,7 @@ export default {
 		background-color: #fff;
 	}
 
-    & /deep/ .el-button {
+    & :deep .el-button {
       margin: 4px;
     }
   }

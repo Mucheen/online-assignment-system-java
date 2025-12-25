@@ -4,7 +4,7 @@
 
       <div :class="2 == 1 ? 'left' : 2 == 2 ? 'left center' : 'left right'" style="backgroundColor: rgba(208, 163, 140, 0.53)">
         <el-form class="login-form" label-position="left" :label-width="1 == 3 ? '56px' : '0px'">
-          <div class="title-container"><h3 class="title" style="color: rgba(255, 255, 255, 1)">作业管理系统登录</h3></div>
+          <div class="title-container"><h3 class="title" style="color: rgba(255, 255, 255, 1)">在线作业系统登录</h3></div>
           <el-form-item :label="1 == 3 ? '用户名' : ''" :class="'style'+1">
             <span v-if="1 != 3" class="svg-container" style="color:rgba(238, 238, 238, 1);line-height:44px"><svg-icon icon-class="user" /></span>
             <el-input placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username" />
@@ -260,7 +260,7 @@ export default {
         height: 40px;
         width: 100%;
 
-        & /deep/ input {
+        & :deep input {
           background: transparent;
           border: 0px;
           -webkit-appearance: none;
@@ -320,7 +320,7 @@ export default {
       }
 
       .el-input {
-        & /deep/ input {
+        & :deep input {
           padding: 0 130px 0 30px;
         }
       }
@@ -328,7 +328,7 @@ export default {
   }
 
   .setting {
-    & /deep/ .el-form-item__content {
+    & :deep .el-form-item__content {
       padding: 0 15px;
       box-sizing: border-box;
       line-height: 32px;
@@ -358,7 +358,7 @@ export default {
     }
 
     .el-input {
-      & /deep/ input {
+      & :deep input {
         padding: 0 15px !important;
       }
     }
@@ -366,30 +366,30 @@ export default {
 
   .code.style2, .code.style3 {
     .el-input {
-      & /deep/ input {
+      & :deep input {
         padding: 0 115px 0 15px;
       }
     }
   }
 
   .style3 {
-    & /deep/ .el-form-item__label {
+    & :deep .el-form-item__label {
       padding-right: 6px;
     }
 
     .el-input {
-      & /deep/ input {
+      & :deep input {
         padding: 0 15px !important;
       }
     }
   }
 
   .role {
-    & /deep/ .el-form-item__label {
+    & :deep .el-form-item__label {
       width: 56px !important;
     }
 
-    & /deep/ .el-radio {
+    & :deep .el-radio {
       margin-right: 12px;
     }
   }

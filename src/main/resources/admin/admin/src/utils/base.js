@@ -9,7 +9,7 @@ const base = {
     },
     getProjectName(){
         return {
-            projectName: "作业管理系统"
+            projectName: "在线作业系统"
         } 
     }
 }
