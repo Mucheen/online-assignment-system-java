@@ -36,13 +36,7 @@ import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
 
-/**
- * 作业提交
- * 后端接口
- * @author 
- * @email 
- * @date 2021-05-09 09:52:20
- */
+
 @RestController
 @RequestMapping("/zuoyetijiao")
 public class ZuoyetijiaoController {

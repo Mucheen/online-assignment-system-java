@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="login-form" style="backgroundColor:rgba(208, 163, 140, 0.53);borderRadius:10px">
-        <h1 class="h1" style="color:rgba(255, 255, 255, 1);fontSize:28px;">作业管理系统注册</h1>
+        <h1 class="h1" style="color:rgba(255, 255, 255, 1);fontSize:28px;">在线作业系统注册</h1>
 		<el-form ref="rgsForm" class="rgs-form" :model="rgsForm" label-width="120px">
 			<!-- <div v-if="tableName=='xuesheng'" class="input-group">
 			   <div class="label">学号</div>
@@ -389,13 +389,13 @@ export default {
 				.input {
 					width: 100%;
 					
-					& /deep/ .el-form-item__label {
+					& :deep .el-form-item__label {
 						line-height: 40px;
 						color: rgba(254, 254, 254, 1);
 						font-size: #606266;
 					}
 					
-					& /deep/ .el-input__inner {
+					& :deep .el-input__inner {
 						height: 40px;
 						color: #606266;
 						font-size: 14px;
